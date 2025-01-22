@@ -239,7 +239,7 @@ add_to_apps_screen = [
 	{
 		"name": "lms",
 		"logo": "/assets/lms/images/lms-logo.png",
-		"title": "Learning",
+		"title": "CLASSROOM",
 		"route": "/lms",
 		"has_permission": "lms.lms.api.check_app_permission",
 	}
