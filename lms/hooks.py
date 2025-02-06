@@ -1,11 +1,11 @@
 from . import __version__ as app_version
 
 app_name = "frappe_lms"
-app_title = "CLASSROOM"
+app_title = "Academy"
 app_publisher = "Frappe"
 app_description = "Frappe LMS App"
 app_icon_url = "/assets/lms/images/lms-logo.png"
-app_icon_title = "CLASSROOM"
+app_icon_title = "Academy"
 app_icon_route = "/lms"
 app_color = "grey"
 app_email = "jannat@frappe.io"
@@ -239,7 +239,7 @@ add_to_apps_screen = [
 	{
 		"name": "lms",
 		"logo": "/assets/lms/images/lms-logo.png",
-		"title": "CLASSROOM",
+		"title": "Academy",
 		"route": "/lms",
 		"has_permission": "lms.lms.api.check_app_permission",
 	}
